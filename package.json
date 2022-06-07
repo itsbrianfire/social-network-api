@@ -1,0 +1,22 @@
+{
+  "name": "nosql-social-network-api",
+  "version": "1.0.1",
+  "description": "Mongoose back-end project - Main",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.0.13",
+    "validator": "^13.7.0",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
